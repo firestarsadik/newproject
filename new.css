@@ -1,0 +1,242 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #000305;
+    padding: 20px;
+    color: #fa545491;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    color: #e7ecf0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #fa545491;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ebebeb;
+}
+
+/* Hero Section */
+.head {
+    background-color: #7705058f;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.head h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.head p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Resource Section */
+.resource-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.resource-section h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.resource-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.resource-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #4e1313;
+    color: #ecf0f1;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card i {
+    font-size: 40px;
+    color: #ccd7df;
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+/*gallary section*/
+/* Gallery Section */
+.gallery {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #5a0303;
+}
+
+.gallery p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #7f8c8d;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #01080e;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #500404;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-paper {
+    background-color: #e7f7e7;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.question-paper a {
+    text-decoration: none;
+    color: #6b4420;
+    font-weight: bold;
+}
+
+.question-paper a:hover {
+    text-decoration: underline;
+}
+.question-papers {
+    color: #ddf3f5;
+}
+.box {
+    background-color: #551515;
+    color: #ecf0f1;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
